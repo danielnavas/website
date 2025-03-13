@@ -17,7 +17,7 @@ export const Projects = () => {
                     {["HTML", "Tailwind CSS", "React JS", "Vite"].map((tech, key) => (
                         <span 
                         key={key}
-                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
+                        className="bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm
                         hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                         {tech}
                         </span>
@@ -26,7 +26,7 @@ export const Projects = () => {
 
                 <div className="flex justify-between items-center">
                     <a href="#" 
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                    className="text-teal-500 hover:text-teal-400 transition-colors my-4">
                     View Project &rArr;	
                     </a>
                 </div> 
@@ -39,16 +39,16 @@ export const Projects = () => {
                     {["Soldering", "Rotary Tools", "Electronics", "lmao"].map((tech, key) => (
                         <span 
                         key={key}
-                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
+                        className="bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm
                         hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                         {tech}
                         </span>
                     ))}    
                 </div>
 
-                <div className="flex justify-between items-center">
+                <div className="flex">
                     <a href="#" 
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                    className="text-teal-500 hover:text-teal-400 transition-colors my-4">
                     View Project &rArr;	
                     </a>
                 </div> 
