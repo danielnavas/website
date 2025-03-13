@@ -24,9 +24,9 @@ export const Projects = () => {
                     ))}    
                 </div>
 
-                <div className="flex justify-between items-center">
+                <div className="flex">
                     <a href="#" 
-                    className="text-teal-500 hover:text-teal-400 transition-colors my-4">
+                    className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
                     View Project &rArr;	
                     </a>
                 </div> 
@@ -36,7 +36,7 @@ export const Projects = () => {
                     <h3 className="text-xl font-bold mb-2">Fightstick Modification</h3>  
                     <p className="text-gray-400 mb-4">Bought a very old fightstick created for the playstation 1, and used it to teach myself the basics of soldering, rotary tools, and multimeter usage.</p>  
                 <div className="flex flex-wrap gap-2 mb-4">
-                    {["Soldering", "Rotary Tools", "Electronics", "lmao"].map((tech, key) => (
+                    {["Soldering", "Rotary Tools", "Electronics"].map((tech, key) => (
                         <span 
                         key={key}
                         className="bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm
