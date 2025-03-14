@@ -3,9 +3,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-        const FrontendSkills = ["React", "TailwindCSS", "HTML",];
+        const Certifications = ["CompTIA A+"];
 
-        const CustomerSkills = ["place1", "place2", "place3",];
+        const OtherSkills = ["TailwindCSS", "React JS", "HTML", "Computer Troubleshooting", "Soldering"];
 
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -21,15 +21,15 @@ export const About = () => {
                     This website is documentation of that! I'll be using this to upload and talk about different projects I'm working on.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="rounded-xl p-6 px-0 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Frontend skill?</h3>
+                    <div className="rounded-xl p-6 px-0">
+                        <h3 className="text-xl font-bold mb-4">Certifications</h3>
                         <div className="flex flex-wrap gap-2">
 
-                        {FrontendSkills.map((tech, key) =>(
+                        {Certifications.map((tech, key) =>(
                             <span 
                                 key={key}
                                 className="bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm
-                                hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(0,128,128,0.4)] transition">
                                 {tech}
                             </span>
                         ))}
@@ -37,15 +37,15 @@ export const About = () => {
                         </div>
                     </div>
 
-                    <div className="rounded-xl p-6 px-8 hover:-translate-y-1 transition-all">    
-                        <h3 className="text-xl font-bold mb-4">other skills</h3>
+                    <div className="rounded-xl p-6 px-8">    
+                        <h3 className="text-xl font-bold mb-4">Related skills</h3>
                         <div className="flex flex-wrap gap-2">
 
-                            {CustomerSkills.map((tech, key) =>(
+                            {OtherSkills.map((tech, key) =>(
                                 <span 
                                     key={key}
                                     className="bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm
-                                    hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(0,128,128,0.4)] transition">
                                     {tech}
                                 </span>
                             ))}
