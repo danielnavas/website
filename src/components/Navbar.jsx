@@ -8,10 +8,10 @@ export const Navbar =({ menuOpen, setMenuOpen}) => {
         }, [menuOpen]);
 
         return (
-        <nav className="fixed top-0 w-full z-40 bg-[rgba (10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
+        <nav className="fixed top-0 w-full z-40 backdrop-blur-lg border-b border-white/20 shadow-lg">
             <div className= "max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
-                    <a href="#home" className="text-xl font-bold bg-gradient-to-r from-teal-400 to-cyan-500 bg-clip-text text-transparent">
+                    <a href="#home" className="text-2xl font-bold bg-gradient-to-r from-teal-400 to-cyan-500 bg-clip-text text-transparent">
                          Daniel Navas
                     </a>
 
@@ -23,27 +23,27 @@ export const Navbar =({ menuOpen, setMenuOpen}) => {
                     <div className="hidden md:flex items-center space-x-8">
                         <a 
                             href="#home" 
-                            className="text-gray-300 hover:text-teal-500 transition-colors">Home
+                            className="text-gray-200 hover:text-teal-500 transition-colors">Home
                         </a>
 
                         <a 
                             href="#projects" 
-                            className="text-gray-300 hover:text-teal-500 transition-colors">Projects
+                            className="text-gray-200 hover:text-teal-500 transition-colors">Projects
                         </a>
 
                         <a 
                             href="#music" 
-                            className="text-gray-300 hover:text-teal-500 transition-colors">Music
+                            className="text-gray-200 hover:text-teal-500 transition-colors">Music
                         </a>
 
                         <a 
                             href="#about" 
-                            className="text-gray-300 hover:text-teal-500 transition-colors">About
+                            className="text-gray-200 hover:text-teal-500 transition-colors">About
                         </a>
 
                         <a 
                             href="#contact" 
-                            className="text-gray-300 hover:text-teal-500 transition-colors">Contact
+                            className="text-gray-200 hover:text-teal-500 transition-colors">Contact
                         </a>
                     </div>
                 </div>

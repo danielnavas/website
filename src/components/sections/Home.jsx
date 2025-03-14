@@ -12,7 +12,7 @@ export const Home = () => {
             Hi, I'm Daniel. Welcome!
             </h1>
             <p className=" text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                put goal for career paths here
+                Aspiring IT professional. This is my website!
             </p>
             <div className="flex justify-center space-x-4">
                 <a href="#projects" className="border border-teal-500/50 bg-teal-500 text-black py-3 px-6 rounded font-medium transition relative overflow-hidden 
