@@ -5,7 +5,7 @@ export const About = () => {
 
         const Certifications = ["CompTIA A+"];
 
-        const OtherSkills = ["TailwindCSS", "React JS", "HTML", "Computer Troubleshooting", "Soldering"];
+        const OtherSkills = ["TailwindCSS", "HTML", "Computer Troubleshooting", "Soldering"];
 
 
     return <section id="about" className="min-h-screen flex bg-gray-900 items-center justify-center py-20">

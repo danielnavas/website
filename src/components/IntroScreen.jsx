@@ -23,12 +23,12 @@ export const IntroScreen = ( {onComplete}) => {
         }, [onComplete]);
 
     return (
-        <div className="fixed inset-0 z-50 bg-#fff8e7 text-teal-100 flex flex-col items-center justify-center">
+        <div className="fixed inset-0 z-50 bg-#black text-teal-100 flex flex-col items-center justify-center">
             <div className="mb-4 text-4xl font-mono font-bold">
                 {text} <span className="animate-blink ml-1"> | </span>
                 </div>
             <div className="w-[300px] h-[4px] bg-black rounded relative overflow-hidden">
-                <div className="w-[50%] h-full bg-teal-500 shadow-[0_0_100px_#355e3b] animate-loading-bar"></div>
+                <div className="w-[40%] h-full bg-teal-500 shadow-[0_0_100px_#355e3b] animate-loading-bar"></div>
             </div>
         </div>
     );

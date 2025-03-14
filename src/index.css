@@ -6,6 +6,7 @@ html, body{
   font-family: "Roboto Condensed", serif;
   background: #0a0a0a;
   color: #808080; 
+  scroll-behavior: smooth;
 }
 
 
@@ -20,7 +21,7 @@ html, body{
   }
 
   .animate-loading-bar {
-    animation: loading 0.7s ease infinite;
+    animation: loading 0.8s ease infinite;
 }
 
   @keyframes blink {
