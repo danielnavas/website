@@ -3,9 +3,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-        const Certifications = ["CompTIA A+"];
+        const Certifications = ["CompTIA A+", ];
 
-        const OtherSkills = ["TailwindCSS", "HTML", "Computer Troubleshooting", "Soldering"];
+        const OtherSkills = ["Computer Troubleshooting", "Soldering", "Electronics", "Technical Support", "TailwindCSS", "HTML", ];
 
 
     return <section id="about" className="min-h-screen flex bg-gray-900 items-center justify-center py-20">
