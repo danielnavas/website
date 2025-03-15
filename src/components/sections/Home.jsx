@@ -6,7 +6,7 @@ export const Home = () => {
         <RevealOnScroll>
         <div className="text-center z-10 px-4">
             <div className="flex justify-center">
-            <img class="object-scale-down w-64 h-64 rounded-full" alt="" src="/website/me1.JPG" />
+            <img class="object-scale-down w-64 h-64 rounded-full" alt="" src="/website/me.JPG" />
             </div>
             <h1 className="text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-400 to-cyan-600 bg-clip-text text-transparent leading-tight">
             Hi, I'm Daniel. Welcome!
