@@ -9,21 +9,40 @@ import "../index.css";
 
 const MainPage = ()  => {
   const [isLoaded, setisLoaded] = useState(false);
+  if (window.sessionStorage.getItem("firstLoadDone") == null) {
+   return(
+   <>
+   {!isLoaded && <IntroScreen onComplete={() => {
+      setisLoaded(true);
+      window.sessionStorage.setItem( "firstLoadDone", 1);
+      }} />}{""}
+   <div 
+   className={`min-h-screen transition-opacity duration-700 ${
+      isLoaded ? "opacity-100" : "opacity-0"
+      } bg-black text-gray-100`}
+   >
+   <Home />
+      <About /> 
+      <Projects />
+      <Contact />
+      <Footer />
+
+      </div>
+   </> 
+   );
+}
+
+else {
+ 
    return (
   <>
-   {!isLoaded && <IntroScreen onComplete={() => setisLoaded(true)} />}{""}
-    <div 
-      className={`min-h-screen transition-opacity duration-700 ${
-        isLoaded ? "opacity-100" : "opacity-0"
-        } bg-black text-gray-100`}
-    >
-          <Home />
-          <About /> 
-          <Projects />
-          <Contact />
-          <Footer />
-      </div>
+    <Home />
+      <About /> 
+      <Projects />
+      <Contact />
+      <Footer />  
   </>
-  );
+  
+  );}
 };
 export default MainPage;
