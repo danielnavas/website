@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@cascadia-code/scroll-to-hash-element": "^2.0.3",
     "@tailwindcss/vite": "^4.0.9",
     "emailjs-com": "^3.2.0",
     "react": "^19.0.0",

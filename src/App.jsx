@@ -1,34 +1,34 @@
 import { useState } from 'react';
 import './App.css';
 import { Navbar } from './components/Navbar';
-import { IntroScreen } from './components/IntroScreen';
 import { MobileMenu } from './components/MobileMenu';
-import { Home } from './components/sections/Home';
-import { About } from './components/sections/About';
-import { Projects } from './components/sections/Projects';
-import { Contact } from './components/sections/Contact';
+import  MainPage  from './components/MainPage';
 import { Footer } from './components/sections/Footer';
+import { Fightstick } from './pages/Fightstick';
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import "./index.css";
+import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
+
 
 function App() {
-  const [isLoaded, setisLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
    return (
   <>
-   {!isLoaded && <IntroScreen onComplete={() => setisLoaded(true)} />}{""}
-    <div 
-      className={`min-h-screen transition-opacity duration-700 ${
-        isLoaded ? "opacity-100" : "opacity-0"
-        } bg-black text-gray-100`}
-    >
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-          <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> 
-          <Home />
-          <About /> 
-          <Projects />
-          <Contact />
-          <Footer />
-      </div>
+   
+
+     
+        <Footer />
+        <ScrollToHashElement/>
+        <Router>
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> 
+          <Routes>
+            <Route path="/website" element={<MainPage />} />
+            <Route path="/website/fightstick" element={<Fightstick/>}/>
+          </Routes>
+        </Router>
+
+ 
   </>
   );
 }

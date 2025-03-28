@@ -1,7 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
-  
+
+
     return <section id="projects" className="min-h-screen flex items-center justify-center py-20">
         <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
@@ -78,10 +80,10 @@ export const Projects = () => {
                         ))}    
                     </div>
                     <div className="flex">
-                        <a href="#" 
+                        <Link to="/website/fightstick"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
                         Full write-up coming soon!
-                        </a>
+                        </Link>
                     </div> 
                 </div>
                 <div className="p-6 rounded-xl border border-white/20 

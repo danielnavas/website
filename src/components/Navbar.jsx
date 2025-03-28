@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+ 
 export const Navbar =({ menuOpen, setMenuOpen}) => {
 
         useEffect(() => {
@@ -19,28 +19,23 @@ export const Navbar =({ menuOpen, setMenuOpen}) => {
                     onClick={() => setMenuOpen((prev) => !prev)}>
                     &#9776;
                     </div>
-
                     <div className="hidden md:flex items-center space-x-8">
-                        <a 
-                            href="#home" 
+                        <a href="/website#home"
                             className="text-gray-200 hover:text-teal-500 transition-colors">Home
                         </a>
 
-                        <a 
-                            href="#about" 
+                        <a href="/website#about"
                             className="text-gray-200 hover:text-teal-500 transition-colors">About
                         </a>
 
-                        <a 
-                            href="#projects" 
+                        <a href="/website#projects" 
                             className="text-gray-200 hover:text-teal-500 transition-colors">Projects
                         </a>
 
-                        <a 
-                            href="#contact" 
+                        <a href="/website#contact" 
                             className="text-gray-200 hover:text-teal-500 transition-colors">Contact
                         </a>
-                    </div>
+                        </div>
                 </div>
             </div>
         </nav>
