@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Projects = () => {
 
 
-    return <section id="projects" className="min-h-screen flex items-center justify-center py-20">
+    return <section id="projects" className="min-h-screen py-20">
         <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-teal-400 to-cyan-600 bg-clip-text text-transparent text-center">
@@ -82,7 +82,7 @@ export const Projects = () => {
                     <div className="flex">
                         <Link to="/website/fightstick"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
-                        Full write-up coming soon!
+                        Check it out here!
                         </Link>
                     </div> 
                 </div>
