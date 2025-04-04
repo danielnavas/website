@@ -82,7 +82,7 @@ export const Projects = () => {
                     <div className="flex">
                         <Link to="/website/fightstick"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
-                        Check it out here!
+                        Check it out here! &#8658;
                         </Link>
                     </div> 
                 </div>
