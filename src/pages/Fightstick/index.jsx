@@ -23,19 +23,14 @@ export const Fightstick = () => {
                 </div>
             </div> 
 
-                    <div class="">
+                    <div>
                     <img className="object-scale-down md:pl-4" alt="" src="/website/fightstick.jpg"/>
                     </div>  
 
         </div> 
 
         <div className="text-center text-gray-400 md:text-left max-w-5xl mx-auto px-4 py-10">
-            <p>The idea for this project started way back in May 2024, back when I was learning how to play fighting games. At the time, I thought it would
-                be cool to have a retro arcade stick and bring it to local events, so I started to search what I wanted in a fightstick. My older one, a
-                Hori RAP-4, was decent enough, but I found that I also wanted something with a bit more weight to it. Oftentimes I would input a motion and it would move
-                my stick just a bit, and I hated readjusting it everytime that happened. There are solutions on the internet where people put weights inside their
-                stick, but I thought it'd be more interesting if I found one with a more solid chassis. Unfortunately, any fightstick made before seventh generation
-                consoles isn't really made for competitive play, and the Hori HPS-1 for the Playstation is one of the few sticks that has a solid base to work with.                
+            <p>The idea for this project started way back in May 2024. At the time, I thought it would be cool to have a retro arcade stick and bring it to local events, so I started to search what I wanted in a fightstick. My older one, a Hori RAP-4, was decent enough, but I found that I also wanted something with a bit more weight to it. Oftentimes I would input a motion and it would move my stick just a bit, and I hated readjusting. There are solutions on the internet where people put weights inside their stick, but I thought it'd be more interesting if I found one with a more solid chassis. Unfortunately, any fightstick made before seventh generation consoles isn't really made for competitive play, and the Hori HPS-1 for the Playstation is one of the few sticks that has a solid base to work with.                
             </p>
 
             <div class="py-15 text-center object-center justify-center">
