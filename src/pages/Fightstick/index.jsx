@@ -1,9 +1,9 @@
-import { RevealOnScroll } from "../../components/RevealOnScroll";
+import FadeInPage from "../../components/FadeInPage";
 
 export const Fightstick = () => {
   
     return <div className="items-center justify-center p-20 md:p-25">
-        
+        <FadeInPage>
         <div className="flex mx-auto flex-col-reverse md:flex-row items-center justify-center max-w-5xl px-4 md:h-96 word-wrap:break-word text:balance">
             <div className="text-center md:text-left sm:flex-col md:flex-row max-w-xl"> 
                 <h3 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-teal-400 to-cyan-600
@@ -175,6 +175,6 @@ export const Fightstick = () => {
                 </div>
             </div>
         </div>   
-
+        </FadeInPage>
     </div>;
 };
