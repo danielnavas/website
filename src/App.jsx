@@ -5,6 +5,7 @@ import { MobileMenu } from './components/MobileMenu';
 import  MainPage  from './components/MainPage';
 import { Footer } from './components/sections/Footer';
 import { Fightstick } from './pages/Fightstick';
+import { PersonalWeb } from './pages/PersonalWeb';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import "./index.css";
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
@@ -24,6 +25,8 @@ function App() {
             <Routes>
               <Route path="/website" element={<MainPage />} />
               <Route path="/website/fightstick" element={<Fightstick/>}/>
+              <Route path="/website/personalweb" element={<PersonalWeb/>}/>
+
             </Routes>
         </Router>
 

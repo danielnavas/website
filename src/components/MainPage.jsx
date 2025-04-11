@@ -6,7 +6,6 @@ import { Projects } from './sections/Projects';
 import { Contact } from './sections/Contact';
 import { Footer } from './sections/Footer';
 import "../index.css";
-import ScrollToTop from './ScrollToTop';
 
 const MainPage = ()  => {
   const [isLoaded, setisLoaded] = useState(false);
@@ -26,7 +25,8 @@ const MainPage = ()  => {
       <About /> 
       <Projects />
       <Contact />
-      <Footer />
+      <Footer />  
+
 
       </div>
    </> 
@@ -42,6 +42,7 @@ else {
       <Projects />
       <Contact />
       <Footer />  
+
   </>
   
   );}

@@ -30,7 +30,7 @@ export const Contact = () => {
         return (
             <section 
             id="contact" 
-            className="min-h-screen bg-gray-900 flex items-center justify-center py-20"
+            className="min-h md:min-h-[900px] bg-gray-900 flex items-center justify-center py-20"
             >
                 <RevealOnScroll>
                     <div className="px-2 w-xs md:w-150">
@@ -91,8 +91,13 @@ export const Contact = () => {
                                 Send Message
                             </button>
                         </form>
+                        
                     </div>
+
                 </RevealOnScroll>
         </section>
+        
+        
         );   
+
 };
