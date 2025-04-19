@@ -30,7 +30,7 @@ export const Projects = () => {
                         ))}    
                     </div>
                     <div className="flex">
-                        <Link to="/website/personalweb"
+                        <Link to="/website/personalweb" target="_blank"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
                         Check it out here! &#8658;	
                         </Link>
@@ -55,7 +55,7 @@ export const Projects = () => {
                         ))}    
                     </div>
                     <div className="flex">
-                        <a href="#" 
+                        <a href="#" target="_blank"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
                         Full write-up coming soon!	
                         </a>
@@ -80,7 +80,7 @@ export const Projects = () => {
                         ))}    
                     </div>
                     <div className="flex">
-                        <Link to="/website/fightstick"
+                        <Link to="/website/fightstick" target="_blank"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
                         Check it out here! &#8658;
                         </Link>
@@ -105,7 +105,7 @@ export const Projects = () => {
                         ))}    
                     </div>
                     <div className="flex">
-                        <a href="#" 
+                        <a href="#" target="_blank"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
                         Full write-up coming soon!
                         </a>
