@@ -41,12 +41,12 @@ export const PersonalWeb = () => {
 
 
              <p class="pb-10"> Fast forward over 10 years later and I want to make another website. This time, I want to use it to showcase things that I hope will help me
-                 get an IT job! The classic music-to-medical-to-information technology pipeline. Some of these projects will be IT adjacent at best, but it'll
+                 get an IT job! Ah, classic music-to-healthcare-to-information technology pipeline. Some of these projects will be IT adjacent at best, but it'll
                   also serve as a way for me to look back on the electronics-related 
                  hobbies I've been up to! The job market is not looking too great, so I figured something like this should help me stand out in the sea of 
                  Help Desk applicants who were desperate enough to take a Cyber Security bootcamp and are applying to everything under the sun. In addition, 
                  a friend of mine told me about an opening for an entry level IT job that was closing applications in 2 weeks. Time to type! Next step - how
-                  do I go about this? Easy, just open a blank document and get working, right?
+                  do I go about this? Just open a blank document and get working?
             </p> 
 
             <p class="pb-10">
@@ -56,6 +56,11 @@ export const PersonalWeb = () => {
               code and hope that it would translate well. The best way to learn is to follow, so I went to YouTube and got watching. 
             </p>
 
+            <div class="py-15 text-center object-center justify-center">
+                    <img className="mx-auto object-scale-down object-center " alt="" src="/website/oldwebsite.png"/>
+                    <span class="italic">Not bad for the time, but my brain is developed now</span>
+            </div>
+
             <p class="pb-10">
             After looking at a few different tutorials on how to build a single-page website and on the recommendation of my current partner, I downloaded
              Visual Studio Code as my new IDE of choice, and began to build my website with React. I also decided to use the TailwindCSS Framework instead
@@ -63,8 +68,24 @@ export const PersonalWeb = () => {
                has some elegant answers for how to best approach that. In 2013 I religiously followed Ethan Marcotte's Responsive Web Design, a book that
                 was useful at the time, but outdated for my current needs. I needed a website up and running in a little under 2 weeks, and there's no way
                  I want to spend time doing math when I have to get a website working and projects completed. On top of that, Tailwind is especially good
-                  for working almost entirely outside of your CSS document, so you can save time navigating.
+                  for working almost entirely outside of your CSS document, so you can save time navigating. Over the course of developing my website I realized
+                  that modern CSS has some responsive tools built in like the min() function and media queries, but having a website with clear documentation was
+                  really helpful and I wouldn't want to go back to looking at w3schools or codeacademy.
             </p>
+
+
+
+            <div class="md:flex object-center justify-center">
+                <div class="py-15 text-center object-center justify-center">
+                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/responsivebook.png"/>
+                        <span class="italic">I still can't believe I used to do this in 2013.</span>
+                </div>
+                <div class="py-15 text-center object-center justify-center">
+                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/breakpoints.png"/>
+                        <figcaption class="italic">God bless breakpoints...</figcaption>
+                </div>
+      
+            </div>
 
             <p class="pb-10">
             So over the course of a week, I built up a bare-bones website. Nothing fancy, but it worked(for the most part). Unfortunately, the last 10% of
@@ -83,15 +104,15 @@ export const PersonalWeb = () => {
             </p>
 
             <p class="pb-10">
-            Something else I wish I spent more time understanding before I just jumped into it was the flexbox and grid models within CSS. 
+            Something else I wish I spent more time understanding before I just jumped into it were the flexbox and grid models within CSS. 
             Multiple times throughout my project I had problems that I didn't know how to solve, and was using roundabout methods to do so 
             until I really utilized these models. But you don't know what you don't know, and sometimes it takes multiple google searches and
-             hours of frustration to find what you're looking for. Maybe the real lesson is to take a free course before diving in the deep end?
+            hours of frustration to find what you're looking for. Maybe the real lesson is to take a free course before diving in the deep end?
             </p>
 
             <p class="pb-10">
-            Overall, I'm pretty happy with how things have turned out, and will be making small changes and updating different project pages
-             over the next few months. Hopefully I don't forget any more semicolons.
+            I still have a few little things to work on here and there, so I wouldn't call it finished just yet. But it's a start! I'll 
+            be making small changes and updating different project pages over the next few months. Hopefully I don't forget any more semicolons.
             </p>
         </div>   
         </FadeInPage>
