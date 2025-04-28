@@ -105,10 +105,10 @@ export const Projects = () => {
                         ))}    
                     </div>
                     <div className="flex">
-                        <a href="#"
+                        <Link to ="/website/BatteryFix"
                         className=" text-teal-500 hover:text-teal-400 transition-colors my-4">
-                        Full write-up coming soon!
-                        </a>
+                        Check it out here! &#8658;	
+                        </Link>
                     </div> 
                 </div>
 

@@ -35,7 +35,7 @@ export const PersonalWeb = () => {
             <p class="pb-10">
                 Multiple careers ago, I learned how to make websites at a very basic level. Why? Mostly because my ex wanted me to. My first degree was in Music,
                 so having a simple website up and running is a good idea if you want to have some sort of online presence, and for some reason I thought it wouldn't be too hard.
-                Armed with some basic HTML/CSS experience from MySpace I got to work, and after a few months of realizing it was in fact very hard, I made something half decent!
+                Armed with some basic HTML/CSS experience from MySpace, I got to work, and after a few months of realizing it was in fact very hard, I made something half decent!
                 After doing that for a few friends, I put web development to the side and essentially forgot about it.
             </p>
 
@@ -93,6 +93,12 @@ export const PersonalWeb = () => {
              Had I realized that I actually needed a website with multiple pages, I might have used something else.
             </p>
 
+            <div class="md:float-right md:pl-10 pb-10 text-center object-center justify-center">
+                    <img className="mx-auto object-scale-down size-80" alt="" src="/website/morecode.png"/>
+                    <figcaption class="italic overflow:visible">I no longer have to tab between pages to see my mistakes, all right!</figcaption>
+
+            </div>
+
             <p class="pb-10">
             React being primarily a SPA library made it much harder than I would have imagined to do anything outside of the single page application.
              React doesn't include page routing by default, so you need to install React Router and restructure your files and links in order to accommodate this. 
@@ -102,6 +108,8 @@ export const PersonalWeb = () => {
              I used something like it in 2013. The ability to have JavaScript, CSS, and HTML all in one file made it very easy to backtrack and revise
               things, so I'm glad that it worked out the way it did. 
             </p>
+
+
 
             <p class="pb-10">
             Something else I wish I spent more time understanding before I just jumped into it were the flexbox and grid models within CSS. 
