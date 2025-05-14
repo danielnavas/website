@@ -44,14 +44,19 @@ export const BatteryFix = () => {
                 dollars, and that's not including any of the packaging. Sometimes they don't even have a working battery! Even though I'm an adult and could have spent the
                 money to get a working copy long ago, I refused to make scalpers richer just because I wasn't able to fix my own copy. But it's time to get to work! This time,
                 a friend of mine had a few copies of different pokemon games with dead batteries. In exchange for fixing them, they offered to give me a copy of pokemon silver for free!
-                They also provided the batteries, so all I needed to do was to get soldering!
+                They also provided the batteries, so I had everything I needed.
             </p> 
 
+                        <div class="py-15 text-center object-center justify-center">
+                    <img className="mx-auto object-scale-down object-center " alt="" src="/website/batterytools.jpg"/>
+                    <span class="italic">Desoldering wick, flux, screwdriver, solder, tweezers to hold the battery, and q-tips to clean everything up!</span>
+            </div>
+
             <p class="pb-10">
-            Absolutely not. I still remember the hours of frustration spent looking up one thing after the other, and was determined to have a better start 
-            this time around. The only files I had from over a decade ago were a mock-up for a martial arts website that had basic features like a header,
-             footer, etc. with a few jquery files to make it look a little nicer. While it was good to use as a refresher, I didn't want to use decade old
-              code and hope that it would translate well. The best way to learn is to follow, so I went to YouTube and got watching. 
+            Just for fun I decided to check the charge on some of these to see if they still had any juice in them. All the 2nd gen games were out, but surprisingly all
+            the first gen games had a ton of life left! The minimum voltage required for the SRAM to retain save data is around 2 volts, and every 1st gen game had 3.1-3.2 volts
+            left. I don't know how much play these games had, but 1st gen games drain battery a lot faster since they only use the battery when saving. 2nd gen games use the
+            battery for the real-time clock system as well, and that's constantly running whenever your game is on.
             </p>
 
             <div class="py-15 text-center object-center justify-center">
@@ -59,16 +64,27 @@ export const BatteryFix = () => {
                     <span class="italic">Not bad for the time, but my brain is developed now</span>
             </div>
 
-            <p class="pb-10">
-            After looking at a few different tutorials on how to build a single-page website and on the recommendation of my current partner, I downloaded
-             Visual Studio Code as my new IDE of choice, and began to build my website with React. I also decided to use the TailwindCSS Framework instead
-              of normal CSS because of the change in design philosophies for websites. Mobile-first seems to be the default mode of operation, and Tailwind
-               has some elegant answers for how to best approach that. In 2013 I religiously followed Ethan Marcotte's Responsive Web Design, a book that
-                was useful at the time, but outdated for my current needs. I needed a website up and running in a little under 2 weeks, and there's no way
-                 I want to spend time doing math when I have to get a website working and projects completed. On top of that, Tailwind is especially good
-                  for working almost entirely outside of your CSS document, so you can save time navigating. Over the course of developing my website I realized
-                  that modern CSS has some responsive tools built in like the min() function and media queries, but having a website with clear documentation was
-                  really helpful and I wouldn't want to go back to looking at w3schools or codeacademy.
+            <p class="pb-10">There's not too much to this, you just need to be careful when you begin using your soldering iron. I'll break down the steps here:
+            <ol class="list-decimal">
+                    <li>Remove your board from the plastic case! Don't solder with your board still inside it or else you risk melting it with your soldering iron.</li>
+                    <li>Apply flux to solder joints.</li>
+                    <li>Grab a pair of tweezers, and while holding the battery with them, heat up one of the joints and pull your battery away gently. Do this
+                    one joint at a time. Don't apply too much pressure or else you'll burn the board!</li>
+                    <li>Put your new battery on in the correct orientation and use a multimeter to make sure it works. It would be pretty annoying to solder on another
+                    dead battery.</li>
+                    <li>Apply flux to the joints again.</li>
+                    <li>Put your desoldering wick onto your contact, and heat it up with a soldering iron. Be sure to move the wick around a little while doing this, or
+                    else you'll heat the wick up too much and it will stick to the board.</li>
+                    <li>use a Q-tip and Isopropyl Alcohol to clean up the mess.</li>
+                    <li>Apply flux again!</li>
+                    <li>Put your new battery on your board. Pay attention to the polarity and put the tabs in the correct orientation. Put the plus tab(the one on top)
+                    on the plus contact, and put the minus tab (the one underneath the battery) on the minus one.</li>
+                    <li>Get soldering! This is a little different than through hole soldering, where you don't need to move the solder at all. For soldering on a flat
+                    surface you need to push/feed the solder into the battery tab as you heat up your contact. The solder will melt away and your wire will get shorter,
+                    but that's okay since you'll be pushing more solder into the area.</li>
+                    <li>Clean up any remaining flux with Isopropyl alochol again.</li>
+                    <li>Test your battery with a multimeter to make sure everything works or just try saving your new game. Hooray!</li>
+                </ol>
             </p>
 
 
@@ -86,9 +102,8 @@ export const BatteryFix = () => {
             </div>
 
             <p class="pb-10">
-            So over the course of a week, I built up a bare-bones website. Nothing fancy, but it worked(for the most part). Unfortunately, the last 10% of
-             the website took just as long as the first 90% did, and most of this is because I didn't know exactly what I was getting into when I decided to use React.
-             Had I realized that I actually needed a website with multiple pages, I might have used something else.
+            After typing everything out there actually might be more to this than I originally expected. But none of the steps are too complicated. Just be patient
+            and use lots of flux! Thanks for reading.
             </p>
 
             <p class="pb-10">

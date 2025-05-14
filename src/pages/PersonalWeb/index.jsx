@@ -2,7 +2,7 @@ import FadeInPage from "../../components/FadeInPage";
 
 export const PersonalWeb = () => {
   
-    return <div className="items-center justify-center p-20 md:p-25">
+    return <div className="items-center justify-center p-10 md:p-25">
         <FadeInPage>
         <div className="flex mx-auto flex-col-reverse md:flex-row items-center justify-center max-w-5xl md:h-96 px-4 word-wrap:break-word text:balance">
             <div className="text-center md:text-left sm:flex-col md:flex-row max-w-xl"> 
