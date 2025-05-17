@@ -55,7 +55,7 @@ export const BatteryFix = () => {
             <p class="pb-10">
             Just for fun I decided to check the charge on some of these to see if they still had any juice in them. All the 2nd gen games were out, but surprisingly all
             the first gen games had a ton of life left! The minimum voltage required for the SRAM to retain save data is around 2 volts, and every 1st gen game had 3.1-3.2 volts
-            left. I don't know how much play these games had, but 1st gen games drain battery a lot faster since they only use the battery when saving. 2nd gen games use the
+            left. I don't know how much play these games had, but 1st gen games drain battery a lot more slowly since they only use the battery when saving. 2nd gen games use the
             battery for the real-time clock system as well, and that's constantly running whenever your game is on.
             </p>
 
@@ -106,15 +106,6 @@ export const BatteryFix = () => {
             and use lots of flux! Thanks for reading.
             </p>
 
-            <p class="pb-10">
-            React being primarily a SPA library made it much harder than I would have imagined to do anything outside of the single page application.
-             React doesn't include page routing by default, so you need to install React Router and restructure your files and links in order to accommodate this. 
-             Hash/Anchor links don't work without an additional package either, which I only found out after hours of trial and error and searching on 
-             StackOverflow. This seems like a huge oversight considering the fact that hash links are pretty useful in SPAs, and especially for what I 
-             intended to do with my website. On the other hand, Tailwind has some excellent documentation that helped a lot with learning how to use it, and I wish
-             I used something like it in 2013. The ability to have JavaScript, CSS, and HTML all in one file made it very easy to backtrack and revise
-              things, so I'm glad that it worked out the way it did. 
-            </p>
 
             <p class="pb-10">
             Something else I wish I spent more time understanding before I just jumped into it were the flexbox and grid models within CSS. 
