@@ -23,7 +23,7 @@ export const PersonalWeb = () => {
 
             </div> 
             <div>
-                <img className="object-scale-down rounded-md pb-8 md:pb-0 size-96" alt="" src="/website/code.jpg"/>
+                <img className="object-scale-down rounded-md pb-8 md:pb-0 size-96" alt="" src="/website/home/code.jpg"/>
             </div>
             
               
@@ -57,7 +57,7 @@ export const PersonalWeb = () => {
             </p>
 
             <div class="py-15 text-center object-center justify-center">
-                    <img className="mx-auto object-scale-down object-center " alt="" src="/website/oldwebsite.png"/>
+                    <img className="mx-auto object-scale-down object-center " alt="" src="/website/newwebsite/oldwebsite.png"/>
                     <span class="italic">Not bad for the time, but my brain is developed now</span>
             </div>
 
@@ -77,11 +77,11 @@ export const PersonalWeb = () => {
 
             <div class="md:flex object-center justify-center">
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/responsivebook.png"/>
+                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/newwebsite/responsivebook.png"/>
                         <span class="italic">I still can't believe I used to do this in 2013.</span>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/breakpoints.png"/>
+                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/newwebsite/breakpoints.png"/>
                         <figcaption class="italic">God bless breakpoints...</figcaption>
                 </div>
       
@@ -94,7 +94,7 @@ export const PersonalWeb = () => {
             </p>
 
             <div class="md:float-right md:pl-10 pb-10 text-center object-center justify-center">
-                    <img className="mx-auto object-scale-down size-80" alt="" src="/website/morecode.png"/>
+                    <img className="mx-auto object-scale-down size-80" alt="" src="/website/newwebsite/morecode.png"/>
                     <figcaption class="italic overflow:visible">I no longer have to tab between pages to see my mistakes, all right!</figcaption>
 
             </div>

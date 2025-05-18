@@ -14,7 +14,7 @@ export const Projects = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/code.jpg" />
+                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/code.jpg" />
                         </div>
                         <h3 className="text-xl font-bold mb-2 mt-2"> Personal Website</h3>  
                         <p className="text-gray-400 mb-4">Created a personal website to showcase my experience building a website for the first time in over a decade. 
@@ -39,7 +39,7 @@ export const Projects = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/proxmox.jpg" />
+                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/proxmox.jpg" />
                         </div>
                         <h3 className="text-xl font-bold mb-2 mt-2"> Music Server</h3>  
                         <p className="text-gray-400 mb-4">Created my own server in order to stream my music library wherever I go! Goes over the process of setting up
@@ -64,7 +64,7 @@ export const Projects = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/fightstick.jpg" />
+                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/fightstick.jpg" />
                         </div>
                         <h3 className="text-xl font-bold mb-2 mt-2"> Fightstick Modification</h3>  
                         <p className="text-gray-400 mb-4">Purchased a very, very old fightstick and used its poorly made internals as an opportunity to get
@@ -89,7 +89,7 @@ export const Projects = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/battery.jpg" />
+                            <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/battery.jpg" />
                         </div>
                         <h3 className="text-xl font-bold mb-2 mt-2"> Video Game Battery Replacement</h3>  
                         <p className="text-gray-400 mb-4">Revived some old video games that had used up batteries. Goes into the different battery types,

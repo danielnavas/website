@@ -24,7 +24,7 @@ export const Fightstick = () => {
 
             </div> 
             <div>
-                    <img className="object-scale-down size-96" alt="" src="/website/fightstick.jpg"/>
+                    <img className="object-scale-down size-96" alt="" src="/website/home/fightstick.jpg"/>
             </div>
             
               
@@ -37,7 +37,7 @@ export const Fightstick = () => {
             </p>
 
             <div class="py-15 text-center object-center justify-center">
-                    <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/basehori.jpg"/>
+                    <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/fightstick/basehori.jpg"/>
                     <span class="italic"> Peak gaming in 1998, for better or worse</span>
             </div>
 
@@ -50,15 +50,15 @@ export const Fightstick = () => {
 
             <div class="md:flex">
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/baseboard.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/baseboard.jpg"/>
                         <span class="italic">Stock...</span>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/dirtyboard.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/dirtyboard.jpg"/>
                         <figcaption class="italic">Desoldered with a solder sucker(don't do this)</figcaption>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/cleanboard.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/cleanboard.jpg"/>
                         <figcaption class="italic">Cleaned up with Desoldering Wick(do this instead) and Isopropyl Alcohol!</figcaption>
                 </div>
             </div>
@@ -74,13 +74,13 @@ export const Fightstick = () => {
 
             <div class="md:flex gap-6">
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/inputtest.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/inputtest.jpg"/>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/oldlever.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/oldlever.jpg"/>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/notes.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/notes.jpg"/>
                 </div>
             </div>
 
@@ -95,14 +95,14 @@ export const Fightstick = () => {
 
             <div class="md:flex gap-6">
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/lineup.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/lineup.jpg"/>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/drill.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/drill.jpg"/>
                         <figcaption class="italic">Slightly off, but good enough!</figcaption>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/countersink.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/countersink.jpg"/>
                 </div>
             </div>
 
@@ -115,13 +115,13 @@ export const Fightstick = () => {
 
             <div class="md:flex gap-6">
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/leverbefore.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/leverbefore.jpg"/>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/sanded.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/sanded.jpg"/>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/leverafter.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/leverafter.jpg"/>
                 </div>
             </div>
 
@@ -132,10 +132,10 @@ export const Fightstick = () => {
 
             <div class="md:flex gap-6 object-center justify-center">
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/solder.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/solder.jpg"/>
                 </div>
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/wires.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/wires.jpg"/>
                 </div>
             </div>
             <div class="text-center pb-10">
@@ -151,13 +151,13 @@ export const Fightstick = () => {
 
             <div class="md:flex gap-6 object-center justify-center">
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/leverwires.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/leverwires.jpg"/>
                 </div>
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/tape.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/tape.jpg"/>
                 </div>
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/complete.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/complete.jpg"/>
                 </div>
             </div>
 
@@ -168,10 +168,10 @@ export const Fightstick = () => {
 
             <div class="md:flex gap-6 object-center justify-center">
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/done.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/done.jpg"/>
                 </div>
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/done2.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/done2.jpg"/>
                 </div>
             </div>
         </div>   
