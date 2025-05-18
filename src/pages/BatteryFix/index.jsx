@@ -35,7 +35,6 @@ export const BatteryFix = () => {
                 been close to 20 years since it was last used!
             </p>
 
-
              <p class="pb-10">
                 For those blissfully unaware about the current state of the retro video game market, a working copy of Pokemon crystal goes for around 150
                 dollars, and that's not including any of the packaging. Sometimes they don't even have a working battery! Even though I'm an adult and could have spent the
@@ -51,21 +50,26 @@ export const BatteryFix = () => {
 
             <p class="pb-10">
             Just for fun I decided to check the charge on some of these to see if they still had any juice in them. All the 2nd gen games were out, but surprisingly all
-            the first gen games had a ton of life left! The minimum voltage required for the SRAM to retain save data is around 2 volts, and every 1st gen game had 3.1-3.2 volts
+            the first gen games had a ton of life left! The minimum voltage required for the SRAM to retain save data is around 2 volts, and every 1st gen game had 3-3.1 volts
             left. I don't know how much play these games had, but 1st gen games drain battery a lot more slowly since they only use the battery when saving. 2nd gen games use the
             battery for the real-time clock system as well, and that's constantly running whenever your game is on.
             </p>
 
-            <div class="py-15 text-center object-center justify-center">
-                    <img className="mx-auto object-scale-down object-center " alt="" src="/website/oldwebsite.png"/>
-                    <span class="italic">Not bad for the time, but my brain is developed now</span>
+            <div class="md:flex object-center justify-center">
+                <div class="p-10 text-center">
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/batteryfix/alivebattery.jpg"/>
+                        <span class="italic">All the gen 1 games looked pretty healthy!</span>
+                </div>
+                <div class="p-10 text-center">
+                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/batteryfix/deadbattery.jpg"/>
+                        <span class="italic">Gen 2. Absolutely dead.</span>
+                </div>
             </div>
 
             <p class="pb-10">There's not too much to this, you just need to be careful when you begin using your soldering iron. I'll break down the steps below.
                 I should also note that while the original project was for installing batteries on Game Boy/Game Boy Color games, the photos below go over feature
                 the Game Boy Advance video game Megaman Zero. The first set of pictures I took with Pokemon Crystal didn't cover everything so I wanted to make sure
-                I was as detailed as possible. Somehow I forgot to take a picture of testing the battery beforehand. So here is your reminder! Use a multimeter
-                to test your battery and make sure it's not dead on arrival. Then follow the steps below and you too can have fun catching small digital creatures again.
+                I was as detailed as possible.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 md:flex-row gap-6 pb-10">
@@ -177,29 +181,15 @@ export const BatteryFix = () => {
 
             </div>
 
+            <div class="py-15 text-center object-center justify-center">
+                <img className="mx-auto object-scale-down object-center " alt="" src="/website/batteryfix/replacedbatteries.jpg"/>
+                <span class="italic">Looking pretty good!</span>
+            </div>
+
             <p class="pb-10">
             After typing everything out there actually might be more to this than I originally expected. But none of the steps are too complicated. Just be patient
             and use lots of flux! Thanks for reading.
-            </p>
-
-
-            <p class="pb-10">
-            Something else I wish I spent more time understanding before I just jumped into it were the flexbox and grid models within CSS. 
-            Multiple times throughout my project I had problems that I didn't know how to solve, and was using roundabout methods to do so 
-            until I really utilized these models. But you don't know what you don't know, and sometimes it takes multiple google searches and
-            hours of frustration to find what you're looking for. Maybe the real lesson is to take a free course before diving in the deep end?
-            </p>
-
-            <p class="pb-10">
-            I still have a few little things to work on here and there, so I wouldn't call it finished just yet. But it's a start! I'll 
-            be making small changes and updating different project pages over the next few months. Hopefully I don't forget any more semicolons.
-            </p>
-
-
-
-
-
-            
+            </p>          
             
         </div>
 

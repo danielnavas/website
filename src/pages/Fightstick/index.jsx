@@ -55,11 +55,11 @@ export const Fightstick = () => {
                 </div>
                 <div class="py-15 text-center object-center justify-center">
                         <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/dirtyboard.jpg"/>
-                        <figcaption class="italic">Desoldered with a solder sucker(don't do this)</figcaption>
+                        <span class="italic">Desoldered with a solder sucker(don't do this)</span>
                 </div>
                 <div class="py-15 text-center object-center justify-center">
                         <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/cleanboard.jpg"/>
-                        <figcaption class="italic">Cleaned up with Desoldering Wick(do this instead) and Isopropyl Alcohol!</figcaption>
+                        <span class="italic">Cleaned up with Desoldering Wick(do this instead) and Isopropyl Alcohol!</span>
                 </div>
             </div>
 
