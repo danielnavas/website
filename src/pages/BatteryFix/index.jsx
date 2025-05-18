@@ -177,23 +177,6 @@ export const BatteryFix = () => {
 
             </div>
 
-                    <p>Get soldering! This is a little different than through hole soldering, where you don't need to move the solder at all. For soldering on a flat
-                    surface you need to push/feed the solder into the battery tab as you heat up your contact. The solder will melt away and your wire will get shorter,
-                    but that's okay since you'll be pushing more solder into the area.</p>
-                    <p>Clean up any remaining flux with Isopropyl alochol again.</p>
-                    <p>Test your battery with a multimeter to make sure everything works or just try saving your new game. Hooray!</p>
-
-            <div class="md:flex object-center justify-center">
-                <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/responsivebook.png"/>
-                        <span class="italic">I still can't believe I used to do this in 2013.</span>
-                </div>
-                <div class="py-15 text-center object-center justify-center">
-                        <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/breakpoints.png"/>
-                        <figcaption class="italic">God bless breakpoints...</figcaption>
-                </div>     
-            </div>
-
             <p class="pb-10">
             After typing everything out there actually might be more to this than I originally expected. But none of the steps are too complicated. Just be patient
             and use lots of flux! Thanks for reading.
