@@ -2,7 +2,7 @@ import FadeInPage from "../../components/FadeInPage";
 
 export const BatteryFix = () => {
   
-    return <div className="items-center justify-center p-20 md:p-25">
+    return <div className="p-20 md:p-25">
         <FadeInPage>
         <div className="flex mx-auto flex-col-reverse md:flex-row items-center justify-center max-w-5xl md:h-96 px-4 word-wrap:break-word text:balance">
             <div className="text-center md:text-left sm:flex-col md:flex-row max-w-xl"> 
@@ -27,7 +27,7 @@ export const BatteryFix = () => {
      
         <hr className="m-auto h-[2px] mt-10 bg-gray-400 max-w-5xl border-0"></hr>
     
-        <div className="text-center text-gray-400 md:text-left max-w-5xl mx-auto px-4 py-10">
+        <div className="text-center text-gray-400 md:text-left max-w-5xl mx-auto md:mr-auto px-4 py-10">
             <p class="pb-10">
                 Hello! After successfully soldering everything onto my fighstick, I felt pretty confident in my abilities to work on simple projects now. Also,
                 I think I spent around 100 bucks getting all the soldering tools required and didn't want them to just rot in a box after one project.
@@ -72,11 +72,11 @@ export const BatteryFix = () => {
                 I was as detailed as possible.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 md:flex-row gap-6 pb-10">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:flex-row gap-6 pb-10">
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                     <div>
-                        <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/removedcase.jpg" />
+                        <img class="object-scale-down size-48 rounded-md mb-4 mx-auto md:mr-auto" alt="" src="/website/batteryfix/removedcase.jpg" />
                      </div>
                     <p className="text-gray-400">1: Remove your board from the plastic case! Don't solder with your board still inside it or else you risk melting
                         it with your soldering iron. This game appears to have been dipped in coffee and somehow still runs, but wow this has seen better days.
