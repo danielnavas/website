@@ -2,14 +2,14 @@ import FadeInPage from "../../components/FadeInPage";
 
 export const PersonalWeb = () => {
   
-    return <div className="items-center justify-center p-10 md:p-25">
+    return <div className="p-10 md:p-25">
         <FadeInPage>
         <div className="flex mx-auto flex-col-reverse md:flex-row items-center justify-center max-w-5xl md:h-96 px-4 word-wrap:break-word text:balance">
             <div className="text-center md:text-left sm:flex-col md:flex-row max-w-xl"> 
                 <h3 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-teal-400 to-cyan-600
                 bg-clip-text text-transparent">Personal Website</h3>  
                 <p className="text-gray-400 mb-4 md:pr-4">I made a website, wow! With the power of YouTube and StackOverflow, anything is possible...</p>  
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap justify-center md:justify-normal gap-2 mb-4">
                     {["ReactJS", "TailwindCSS", "Front-End Development", "Github"].map((tech, key) => (
                         <span 
                         key={key}
@@ -43,7 +43,7 @@ export const PersonalWeb = () => {
              <p class="pb-10"> Fast forward over 10 years later and I want to make another website. This time, I want to use it to showcase things that I hope will help me
                  get an IT job! Ah, classic music-to-healthcare-to-information technology pipeline. Some of these projects will be IT adjacent at best, but it'll
                   also serve as a way for me to look back on the electronics-related 
-                 hobbies I've been up to! The job market is not looking too great, so I figured something like this should help me stand out in the sea of 
+                 hobbies I've been up to. The job market is not looking too great, so I figured something like this should help me stand out in the sea of 
                  Help Desk applicants who were desperate enough to take a Cyber Security bootcamp and are applying to everything under the sun. In addition, 
                  a friend of mine told me about an opening for an entry level IT job that was closing applications in 2 weeks. Time to type! Next step - how
                   do I go about this? Just open a blank document and get working?

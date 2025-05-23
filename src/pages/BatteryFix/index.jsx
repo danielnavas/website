@@ -2,32 +2,32 @@ import FadeInPage from "../../components/FadeInPage";
 
 export const BatteryFix = () => {
   
-    return <div className="p-20 md:p-25">
+    return <div className="p-10 md:p-25">
         <FadeInPage>
         <div className="flex mx-auto flex-col-reverse md:flex-row items-center justify-center max-w-5xl md:h-96 px-4 word-wrap:break-word text:balance">
             <div className="text-center md:text-left sm:flex-col md:flex-row max-w-xl"> 
                 <h3 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-teal-400 to-cyan-600
                 bg-clip-text text-transparent">Video Game Battery Replacement</h3>  
                 <p className="text-gray-400 mb-4 md:pr-4">Using my newfound soldering skills to bring some absurdly expensive video games back to life.</p>  
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap justify-center md:justify-normal gap-2 mb-4">
                     {["Soldering", "Electronics", "Overpriced Collectibles...seriously"].map((tech, key) => (
                         <span 
                         key={key}
                         className="bg-teal-500/10 text-teal-500 py-1 px-3 rounded-full text-sm
-                        hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                        hover:blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition ">
                         {tech}
                         </span>
                     ))}    
                 </div>
             </div> 
             <div>
-                <img className="object-scale-down rounded-md pb-8 md:pb-0 size-96" alt="" src="/website/home/battery.jpg"/>
+                <img className="object-scale-down rounded-md pb-8 md:pb-0 pl-0 md:pl-2 size-96" alt="" src="/website/home/battery.jpg"/>
             </div>        
         </div> 
      
         <hr className="m-auto h-[2px] mt-10 bg-gray-400 max-w-5xl border-0"></hr>
     
-        <div className="text-center text-gray-400 md:text-left max-w-5xl mx-auto md:mr-auto px-4 py-10">
+        <div className="text-center text-gray-400 md:text-left max-w-5xl mx-auto px-4 py-10">
             <p class="pb-10">
                 Hello! After successfully soldering everything onto my fighstick, I felt pretty confident in my abilities to work on simple projects now. Also,
                 I think I spent around 100 bucks getting all the soldering tools required and didn't want them to just rot in a box after one project.
@@ -43,8 +43,8 @@ export const BatteryFix = () => {
                 They also provided the batteries, so I had everything I needed.
             </p> 
 
-            <div class="py-15 text-center object-center justify-center">
-                <img className="mx-auto object-scale-down object-center " alt="" src="/website/batteryfix/batterytools.jpg"/>
+            <div class="pb-10 text-center object-center justify-center">
+                <img className="mx-auto object-scale-down size-120 " alt="" src="/website/batteryfix/batterytools.jpg"/>
                 <span class="italic">Desoldering wick, flux, screwdriver, solder, tweezers to hold the battery, and q-tips to clean everything up!</span>
             </div>
 
@@ -76,8 +76,8 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                     <div>
-                        <img class="object-scale-down size-48 rounded-md mb-4 mx-auto md:mr-auto" alt="" src="/website/batteryfix/removedcase.jpg" />
-                     </div>
+                        <img class="object-scale-down inline size-48 rounded-md mb-4" alt="" src="/website/batteryfix/removedcase.jpg" />
+                    </div>
                     <p className="text-gray-400">1: Remove your board from the plastic case! Don't solder with your board still inside it or else you risk melting
                         it with your soldering iron. This game appears to have been dipped in coffee and somehow still runs, but wow this has seen better days.
                     </p>  
@@ -86,7 +86,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/applyflux.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/applyflux.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">2: Apply flux to solder joints. Don't be stingy! More is better here.
                         </p>  
@@ -95,7 +95,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/pullbattery.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/pullbattery.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">3: Grab a pair of tweezers, and while holding the battery with them, heat up one of the joints
                             and pull your battery away gently. Do this one joint at a time. Don't apply too much pressure or else you'll burn the board!
@@ -107,7 +107,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/cleansolder.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/cleansolder.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">4: Clean up any remaining solder by applying flux to the tabs and using a desoldering wick to suck up the
                             solder. You want to place the iron directly onto the wick, and move the wick around as it takes in the old solder. If you leave the wick
@@ -119,7 +119,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/cleanboard.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/cleanboard.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">5: Use Isopropyl Alcohol to clean up any residue. Be careful to not get any on the chips or else you can
                             wipe away the text!
@@ -129,7 +129,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/home/battery.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/home/battery.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">6: Test your battery BEFORE soldering it onto the board! I tested it after the fact for my copy of Crystal,
                             and I was sweating bullets when I realized that I hadn't tested it. It worked out fine, but please
@@ -140,7 +140,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/polarity.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/polarity.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">7: Apply flux and put your new battery on your board. Pay attention to the polarity and put the tabs
                              in the correct orientation. Put the plus tab on the plus contact, and put the minus tab on the minus one.
@@ -150,7 +150,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/solderbattery.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/solderbattery.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">8: Get soldering! This is a little different than through hole soldering, where you don't
                             need to move the solder at all. For soldering on a flat surface you need to push/feed the solder into the battery tab as
@@ -162,7 +162,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/cleanagain.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/cleanagain.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">9: Clean up any remaining flux with Isopropyl alochol again. Almost there!
                         </p>
@@ -171,7 +171,7 @@ export const BatteryFix = () => {
                 <div className="p-6 rounded-xl border border-white/20 
                     hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
                         <div>
-                            <img class="object-scale-down size-48 rounded-md mb-4" alt="" src="/website/batteryfix/done.jpg" />
+                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/done.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">10: Pop that beautiful masterpiece of yours back into the case and close it up!
                         </p>

@@ -2,7 +2,7 @@ import FadeInPage from "../../components/FadeInPage";
 
 export const Fightstick = () => {
   
-    return <div className="items-center justify-center p-20 md:p-25">
+    return <div className="p-10 md:p-25">
         <FadeInPage>
         <div className="flex mx-auto flex-col-reverse md:flex-row items-center justify-center max-w-5xl px-4 md:h-96 word-wrap:break-word text:balance">
             <div className="text-center md:text-left sm:flex-col md:flex-row max-w-xl"> 
@@ -10,7 +10,7 @@ export const Fightstick = () => {
                 bg-clip-text text-transparent">Hori HPS-1 PS1 Fightstick Modification</h3>  
                 <p className=" text-gray-400 mb-4">I purchased a very, very old fightstick and used its poorly made internals as an opportunity to get
                         hands-on experience with soldering, multimeter usage, circuitry fundamentals, wiring, and different power tools. Let's see what's inside!</p>  
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap justify-center md:justify-normal gap-2 mb-4">
                     {["Soldering", "Rotary Tools", "Electronics"].map((tech, key) => (
                         <span 
                         key={key}
@@ -24,7 +24,7 @@ export const Fightstick = () => {
 
             </div> 
             <div>
-                    <img className="object-scale-down size-96" alt="" src="/website/home/fightstick.jpg"/>
+                <img className="object-scale-down size-96 pl-0 md:pl-2" alt="" src="/website/home/fightstick.jpg"/>
             </div>
             
               
