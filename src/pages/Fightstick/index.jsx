@@ -59,7 +59,7 @@ export const Fightstick = () => {
                 </div>
                 <div class="py-15 text-center object-center justify-center">
                         <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/cleanboard.jpg"/>
-                        <span class="italic">Cleaned up with Desoldering Wick(do this instead) and Isopropyl Alcohol!</span>
+                        <span class="italic">Cleaned up with desoldering wick(do this instead) and IPA</span>
                 </div>
             </div>
 

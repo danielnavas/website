@@ -44,7 +44,7 @@ export const BatteryFix = () => {
             </p> 
 
             <div class="pb-10 text-center object-center justify-center">
-                <img className="mx-auto object-scale-down size-120 " alt="" src="/website/batteryfix/batterytools.jpg"/>
+                <img className="mx-auto object-cover size-120" alt="" src="/website/batteryfix/batterytools.jpg"/>
                 <span class="italic">Surgical Tools...</span>
             </div>
 
@@ -189,13 +189,26 @@ export const BatteryFix = () => {
             </div>
 
             <div class="py-15 text-center object-center justify-center">
-                <img className="mx-auto object-scale-down object-center " alt="" src="/website/batteryfix/replacedbatteries.jpg"/>
+                <img className="mx-auto object-scale-down object-center" alt="" src="/website/batteryfix/replacedbatteries.jpg"/>
                 <span class="italic">Looking pretty good!</span>
             </div>
 
+            <div class="md:float-right md:pl-10 pb-10 text-center object-center justify-center">
+                    <img className="mx-auto object-scale-down size-48" alt="" src="/website/batteryfix/glitch.png"/>
+                    <figcaption class="italic overflow:visible">That's a freaky game alright.</figcaption>
+            </div>
+            
             <p class="pb-10">
-            After typing everything out there actually might be more to this than I originally expected. But none of the steps are too complicated. Just be patient
-            and use lots of flux! Thanks for reading.
+            After typing everything out there actually might be more to this than I originally expected. I want to emphasize that you really don't need to press down
+            with the soldering iron for too long or too hard. Also, be sure to take a really good look at your board after you've soldered the new battery. There's a
+            small chance that some solder may have gotten onto some of the solder for the other chips, and depending on how much got on it, you could get some wacky glitches
+            here and there. 
+            </p>
+
+            <p class="pb-10">
+            I just reflowed the solder again and it distributed it evenly so there weren't any
+            connections between the solder joints. You could also check for continuity on each of the chips, but if you don't see anything, it's probably fine.
+            Just be patient and use lots of flux!
             </p>          
             
         </div>
