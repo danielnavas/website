@@ -45,7 +45,7 @@ export const BatteryFix = () => {
 
             <div class="pb-10 text-center object-center justify-center">
                 <img className="mx-auto object-scale-down size-120 " alt="" src="/website/batteryfix/batterytools.jpg"/>
-                <span class="italic">Desoldering wick, flux, screwdriver, solder, tweezers to hold the battery, and q-tips to clean everything up!</span>
+                <span class="italic">Surgical Tools...</span>
             </div>
 
             <p class="pb-10">
@@ -173,11 +173,18 @@ export const BatteryFix = () => {
                         <div>
                             <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/done.jpg" />
                         </div>
-                        <p className="text-gray-400 mb-4">10: Pop that beautiful masterpiece of yours back into the case and close it up!
+                        <p className="text-gray-400 mb-4">10: Pop that beautiful masterpiece of yours back into the case and close it up.
                         </p>
                 </div>                
 
-
+                <div className="p-6 rounded-xl border border-white/20 
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
+                        <div>
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/savedgame.jpg" />
+                        </div>
+                        <p className="text-gray-400 mb-4">11: Test to make sure your game works and enjoy!
+                        </p>
+                </div>  
 
             </div>
 

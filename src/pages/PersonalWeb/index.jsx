@@ -45,12 +45,12 @@ export const PersonalWeb = () => {
                   also serve as a way for me to look back on the electronics-related 
                  hobbies I've been up to. The job market is not looking too great, so I figured something like this should help me stand out in the sea of 
                  Help Desk applicants who were desperate enough to take a Cyber Security bootcamp and are applying to everything under the sun. In addition, 
-                 a friend of mine told me about an opening for an entry level IT job that was closing applications in 2 weeks. Time to type! Next step - how
-                  do I go about this? Just open a blank document and get working?
+                 a friend of mine told me about an opening for an entry level IT job that was closing applications in 2 weeks. Time to type, but hopefully with a more
+                 structured approach than last time.
             </p> 
 
             <p class="pb-10">
-            Absolutely not. I still remember the hours of frustration spent looking up one thing after the other, and was determined to have a better start 
+            I still remember the hours of frustration spent looking up one thing after the other, and was determined to have a better start 
             this time around. The only files I had from over a decade ago were a mock-up for a martial arts website that had basic features like a header,
              footer, etc. with a few jquery files to make it look a little nicer. While it was good to use as a refresher, I didn't want to use decade old
               code and hope that it would translate well. The best way to learn is to follow, so I went to YouTube and got watching. 
@@ -70,7 +70,7 @@ export const PersonalWeb = () => {
                  I want to spend time doing math when I have to get a website working and projects completed. On top of that, Tailwind is especially good
                   for working almost entirely outside of your CSS document, so you can save time navigating. Over the course of developing my website I realized
                   that modern CSS has some responsive tools built in like the min() function and media queries, but having a website with clear documentation was
-                  really helpful and I wouldn't want to go back to looking at w3schools or codeacademy.
+                  really helpful and I wouldn't want to go back to looking at w3schools or StackOverflow (Spoiler: I absolutely did go back).
             </p>
 
 

@@ -24,7 +24,7 @@ export const Fightstick = () => {
 
             </div> 
             <div>
-                <img className="object-scale-down size-96 pl-0 md:pl-2" alt="" src="/website/home/fightstick.jpg"/>
+                <img className="object-scale-down rounded-xl size-96 pl-0 md:pl-2" alt="" src="/website/home/fightstick.jpg"/>
             </div>
             
               
@@ -168,10 +168,10 @@ export const Fightstick = () => {
 
             <div class="md:flex gap-6 object-center justify-center">
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/done.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-120 " alt="" src="/website/fightstick/done.jpg"/>
                 </div>
                 <div class="pt-15 text-center">
-                        <img className="mx-auto object-scale-down object-center size-80 " alt="" src="/website/fightstick/done2.jpg"/>
+                        <img className="mx-auto object-scale-down object-center size-120 " alt="" src="/website/fightstick/done2.jpg"/>
                 </div>
             </div>
         </div>   
