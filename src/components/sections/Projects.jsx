@@ -12,7 +12,7 @@ export const Projects = () => {
             </h2>   
             <div className="grid grid-cols-1 md:grid-cols-2 md:flex-row gap-6">
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
                             <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/code.jpg" />
                         </div>
@@ -37,7 +37,7 @@ export const Projects = () => {
                     </div> 
                 </div>
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
                             <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/proxmox.jpg" />
                         </div>
@@ -62,7 +62,7 @@ export const Projects = () => {
                     </div> 
                 </div>
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
                             <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/fightstick.jpg" />
                         </div>
@@ -87,7 +87,7 @@ export const Projects = () => {
                     </div> 
                 </div>
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
                             <img class="object-scale-down size-48 rounded-md" alt="" src="/website/home/battery.jpg" />
                         </div>

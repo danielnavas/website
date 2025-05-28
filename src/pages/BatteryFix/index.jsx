@@ -21,7 +21,7 @@ export const BatteryFix = () => {
                 </div>
             </div> 
             <div>
-                <img className="object-scale-down rounded-md pb-8 md:pb-0 pl-0 md:pl-2 size-96" alt="" src="/website/home/battery.jpg"/>
+                <img className="object-scale-down pb-8 md:pb-0 pl-0 md:pl-2 size-96" alt="" src="/website/home/battery.jpg"/>
             </div>        
         </div> 
      
@@ -39,7 +39,7 @@ export const BatteryFix = () => {
                 For those blissfully unaware about the current state of the retro video game market, a working copy of Pokemon crystal goes for around 150
                 dollars, and that's not including any of the packaging. Sometimes they don't even have a working battery! Even though I'm an adult and could have spent the
                 money to get a working copy long ago, I refused to make scalpers richer just because I wasn't able to fix my own copy. But it's time to get to work! This time,
-                a friend of mine had a few copies of different pokemon games with dead batteries. In exchange for fixing them, they offered to give me a copy of pokemon silver for free!
+                a friend of mine had a few copies of different pokemon games with dead batteries. In exchange for fixing them, they offered to give me a copy of pokemon silver.
                 They also provided the batteries, so I had everything I needed.
             </p> 
 
@@ -52,7 +52,9 @@ export const BatteryFix = () => {
             Just for fun I decided to check the charge on some of these to see if they still had any juice in them. All the 2nd gen games were out, but surprisingly all
             the first gen games had a ton of life left! The minimum voltage required for the SRAM to retain save data is around 2 volts, and every 1st gen game had 3-3.1 volts
             left. I don't know how much play these games had, but 1st gen games drain battery a lot more slowly since they only use the battery when saving. 2nd gen games use the
-            battery for the real-time clock system as well, and that's constantly running whenever your game is on.
+            SRAM as well, but it's constantly being drained whenever you play the game due to the game's day and night cycle and different events like the Goldenrod underground passage.
+            Gen 3 games use a Flash RAM chip to save, so even if your battery dies, you'll still be able to save and play the game. The battery for those is only responsible for
+            time-based events.
             </p>
 
             <div class="md:flex object-center justify-center">
@@ -68,58 +70,56 @@ export const BatteryFix = () => {
 
             <p class="pb-10">There's not too much to this, you just need to be careful when you begin using your soldering iron. I'll break down the steps below.
                 I should also note that while the original project was for installing batteries on Game Boy/Game Boy Color games, the photos below go over feature
-                the Game Boy Advance video game Megaman Zero. The first set of pictures I took with Pokemon Crystal didn't cover everything so I wanted to make sure
-                I was as detailed as possible.
+                the Game Boy Advance video game Megaman Zero. The first set of pictures I took with Pokemon Crystal didn't cover everything so I got another game to work on.
             </p>
 
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:flex-row gap-6 pb-10">
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                     <div>
-                        <img class="object-scale-down inline size-48 rounded-md mb-4" alt="" src="/website/batteryfix/removedcase.jpg" />
+                        <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/removedcase.jpg" />
                     </div>
                     <p className="text-gray-400">1: Remove your board from the plastic case! Don't solder with your board still inside it or else you risk melting
-                        it with your soldering iron. This game appears to have been dipped in coffee and somehow still runs, but wow this has seen better days.
+                        it with your soldering iron. This game appears to have been dipped in coffee and had a bug inside it?? Sorry little guy.
                     </p>  
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/applyflux.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/applyflux.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">2: Apply flux to solder joints. Don't be stingy! More is better here.
                         </p>  
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/pullbattery.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/pullbattery.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">3: Grab a pair of tweezers, and while holding the battery with them, heat up one of the joints
                             and pull your battery away gently. Do this one joint at a time. Don't apply too much pressure or else you'll burn the board!
-                            Be extra careful when working with Game Boy Advance carts, and change the orientation of your game or solder if you need to. In the above image
-                            you could move the soldering iron so it's not directly underneath the C6 chip. Putting these back on if you've desoldered them can be tricky.
+                            Be extra careful when working with Game Boy Advance carts, and change the orientation of your game or iron if you need to. In the above image
+                            you should move the soldering iron so it's not directly underneath the C6 chip. Putting these back on if you've desoldered them can be tricky.
                         </p>  
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/cleansolder.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/cleansolder.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">4: Clean up any remaining solder by applying flux to the tabs and using a desoldering wick to suck up the
                             solder. You want to place the iron directly onto the wick, and move the wick around as it takes in the old solder. If you leave the wick
-                            in the same place for too long you'll cause the wick to stick to the board. This can be fixed by applying more flux and going through
-                            the same process again.
+                            in the same place for too long you'll cause the wick to stick to the board. This can be fixed by applying more flux and trying again.
                         </p>  
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/cleanboard.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/cleanboard.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">5: Use Isopropyl Alcohol to clean up any residue. Be careful to not get any on the chips or else you can
                             wipe away the text!
@@ -127,9 +127,9 @@ export const BatteryFix = () => {
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/home/battery.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/home/battery.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">6: Test your battery BEFORE soldering it onto the board! I tested it after the fact for my copy of Crystal,
                             and I was sweating bullets when I realized that I hadn't tested it. It worked out fine, but please
@@ -138,9 +138,9 @@ export const BatteryFix = () => {
                 </div>     
                 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/polarity.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/polarity.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">7: Apply flux and put your new battery on your board. Pay attention to the polarity and put the tabs
                              in the correct orientation. Put the plus tab on the plus contact, and put the minus tab on the minus one.
@@ -148,9 +148,9 @@ export const BatteryFix = () => {
                 </div>                              
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/solderbattery.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/solderbattery.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">8: Get soldering! This is a little different than through hole soldering, where you don't
                             need to move the solder at all. For soldering on a flat surface you need to push/feed the solder into the battery tab as
@@ -160,18 +160,18 @@ export const BatteryFix = () => {
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/cleanagain.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/cleanagain.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">9: Clean up any remaining flux with Isopropyl alochol again. Almost there!
                         </p>
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/20 
-                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition-all">
+                    hover:-translate-y-1 hover:border-teal-500/30 hover:shadow-[0_5px_50px_rgba(0,128,128,0.3)] transition">
                         <div>
-                            <img class="object-scale-down size-64 rounded-md mb-4" alt="" src="/website/batteryfix/done.jpg" />
+                            <img class="object-scale-down inline size-60 mb-4" alt="" src="/website/batteryfix/done.jpg" />
                         </div>
                         <p className="text-gray-400 mb-4">10: Pop that beautiful masterpiece of yours back into the case and close it up!
                         </p>
