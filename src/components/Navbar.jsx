@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import { HashLink } from 'react-router-hash-link';
+
  
 export const Navbar =({ menuOpen, setMenuOpen}) => {
 
@@ -20,21 +22,21 @@ export const Navbar =({ menuOpen, setMenuOpen}) => {
                     &#9776;
                     </div>
                     <div className="hidden md:flex items-center space-x-8">
-                        <a href="/website/#home"
+                        <HashLink to="/website#home"
                             className="text-gray-200 hover:text-teal-500 transition-colors">Home
-                        </a>
+                        </HashLink>
 
-                        <a href="/website/#about"
+                        <HashLink to="/website#about"
                             className="text-gray-200 hover:text-teal-500 transition-colors">About
-                        </a>
+                        </HashLink>                   
 
-                        <a href="/website/#projects" 
+                        <HashLink to="/website#projects" 
                             className="text-gray-200 hover:text-teal-500 transition-colors">Projects
-                        </a>
+                        </HashLink>
 
-                        <a href="/website/#contact" 
+                        <HashLink to="/website#contact" 
                             className="text-gray-200 hover:text-teal-500 transition-colors">Contact
-                        </a>
+                        </HashLink>
                         </div>
                 </div>
             </div>
