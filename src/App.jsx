@@ -7,9 +7,8 @@ import { Footer } from './components/sections/Footer';
 import { Fightstick } from './pages/Fightstick';
 import { PersonalWeb } from './pages/PersonalWeb';
 import { BatteryFix } from './pages/BatteryFix';
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router"
 import "./index.css";
-import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -18,7 +17,6 @@ function App() {
    return (
   <>  
         <Footer />
-        <ScrollToHashElement/>
         <Router>
           <ScrollToTop/>
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -28,7 +26,6 @@ function App() {
               <Route path="/website/fightstick" element={<Fightstick/>}/>
               <Route path="/website/personalweb" element={<PersonalWeb/>}/>
               <Route path="/website/batteryfix" element={<BatteryFix/>}/>
-
             </Routes>
         </Router>
 
