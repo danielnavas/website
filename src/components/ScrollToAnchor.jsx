@@ -26,3 +26,7 @@ function ScrollToAnchor() {
 }
 
 export default ScrollToAnchor;
+
+   {/* taken from https://dev.to/mindactuate/scroll-to-anchor-element-with-react-router-v6-38op */}
+
+

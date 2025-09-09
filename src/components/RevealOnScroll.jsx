@@ -24,3 +24,5 @@ export const RevealOnScroll = ({children}) => {
     </div>
     );
 };
+
+   {/* RevealOnScroll, taken from github.com/machadop1407 */}

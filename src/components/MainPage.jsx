@@ -7,7 +7,7 @@ import { Contact } from './sections/Contact';
 import { Footer } from './sections/Footer';
 import "../index.css";
 
-const MainPage = ()  => {
+export const MainPage = ()  => {
   const [isLoaded, setisLoaded] = useState(false);
   if (window.sessionStorage.getItem("firstLoadDone") == null) {
    return(
@@ -16,6 +16,8 @@ const MainPage = ()  => {
       setisLoaded(true);
       window.sessionStorage.setItem( "firstLoadDone", 1);
       }} />}{""}
+
+   {/* checks to see if website is loaded so the loading page only shows up once*/}
    <div 
    className={`min-h-screen transition-opacity duration-700 ${
       isLoaded ? "opacity-100" : "opacity-0"
@@ -26,15 +28,11 @@ const MainPage = ()  => {
       <Projects />
       <Contact />
       <Footer />  
-
-
       </div>
    </> 
    );
 }
-
 else {
- 
    return (
   <>
     <Home />
@@ -42,9 +40,6 @@ else {
       <Projects />
       <Contact />
       <Footer />  
-
-  </>
-  
+  </> 
   );}
 };
-export default MainPage;

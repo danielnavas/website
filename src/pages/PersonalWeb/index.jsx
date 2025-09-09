@@ -8,7 +8,7 @@ export const PersonalWeb = () => {
             <div className="text-center md:text-left sm:flex-col md:flex-row max-w-xl"> 
                 <h3 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-teal-400 to-cyan-600
                 bg-clip-text text-transparent">Personal Website</h3>  
-                <p className="text-gray-400 mb-4 md:pr-4">I made a website, wow! With the power of YouTube and StackOverflow, anything is possible...</p>  
+                <p className="text-gray-400 mb-4 md:pr-4">A look into my experience creating a website for the first time in over a decade.</p>  
                 <div className="flex flex-wrap justify-center md:justify-normal gap-2 mb-4">
                     {["ReactJS", "TailwindCSS", "Front-End Development", "Github"].map((tech, key) => (
                         <span 
@@ -33,18 +33,15 @@ export const PersonalWeb = () => {
     
         <div className="text-center text-gray-400 md:text-left max-w-5xl mx-auto px-4 py-10">
             <p class="pb-10">
-                Multiple careers ago, I learned how to make websites at a very basic level. Why? Mostly because my ex wanted me to. My first degree was in Music,
-                so having a simple website up and running is a good idea if you want to have some sort of online presence, and for some reason I thought it wouldn't be too hard.
-                Armed with some basic HTML/CSS experience from MySpace, I got to work, and after a few months of realizing it was in fact very hard, I made something half decent!
-                After doing that for a few friends, I put web development to the side and essentially forgot about it.
+                Multiple careers ago, I learned how to make websites at a very basic level. My first degree was in Music, and since the job requires an online presence,
+                I decided to try my hand at web development. Armed with some basic HTML/CSS experience from MySpace, I spent hours making mistakes and learning what it
+                takes to make an online portfolio. After doing that for a few friends, I put web development to the side and essentially forgot about it.
             </p>
 
 
              <p class="pb-10"> Fast forward over 10 years later and I want to make another website. This time, I want to use it to showcase things that I hope will help me
-                 get an IT job! Ah, classic music-to-healthcare-to-information technology pipeline. Some of these projects will be IT adjacent at best, but it'll
-                  also serve as a way for me to look back on the electronics-related 
-                 hobbies I've been up to. The job market is not looking too great, so I figured something like this should help me stand out in the sea of 
-                 Help Desk applicants who were desperate enough to take a Cyber Security bootcamp and are applying to everything under the sun. In addition, 
+                 get an IT job! Some of these projects will be IT adjacent at best, but it'll also serve as a way for me to look back on the electronics-related 
+                 hobbies I've been up to. The job market is not looking too great, so I figured something like this would help me stand out a bit. In addition, 
                  a friend of mine told me about an opening for an entry level IT job that was closing applications in 2 weeks. Time to type, but hopefully with a more
                  structured approach than last time.
             </p> 
@@ -82,20 +79,22 @@ export const PersonalWeb = () => {
                 </div>
                 <div class="py-15 text-center object-center justify-center">
                         <img className="mx-auto object-scale-down object-center size-96 " alt="" src="/website/newwebsite/breakpoints.png"/>
-                        <figcaption class="italic">God bless breakpoints...</figcaption>
+                        <span class="italic">God bless breakpoints...</span>
                 </div>
       
             </div>
 
             <p class="pb-10">
-            So over the course of a week, I built up a bare-bones website. Nothing fancy, but it worked(for the most part). Unfortunately, the last 10% of
+            So over the course of a week, I built up a bare-bones website. I have to credit github.com/machadop1407 for his tutorials, because without them
+            I don't think I could have made my website as quickly. It's nothing fancy, but it worked(for the most part). Unfortunately, the last 10% of
              the website took just as long as the first 90% did, and most of this is because I didn't know exactly what I was getting into when I decided to use React.
-             Had I realized that I actually needed a website with multiple pages, I might have used something else.
+             Had I realized that I actually needed a website with multiple pages, I might have used something else. Following different guides on how
+             to make a SPA website and undoing a large chunk of the code was a headache that I wouldn't want to go through again!
             </p>
 
             <div class="md:float-right md:pl-10 pb-10 text-center object-center justify-center">
                     <img className="mx-auto object-scale-down size-80" alt="" src="/website/newwebsite/morecode.png"/>
-                    <figcaption class="italic overflow:visible">I no longer have to tab between pages to see my mistakes, all right!</figcaption>
+                    <span class="italic overflow:visible">I no longer have to tab between pages to see my mistakes, all right!</span>
 
             </div>
 
@@ -109,19 +108,18 @@ export const PersonalWeb = () => {
               things, so I'm glad that it worked out the way it did. 
             </p>
 
-
-
             <p class="pb-10">
             Something else I wish I spent more time understanding before I just jumped into it were the flexbox and grid models within CSS. 
             Multiple times throughout my project I had problems that I didn't know how to solve, and was using roundabout methods to do so 
             until I really utilized these models. But you don't know what you don't know, and sometimes it takes multiple google searches and
-            hours of frustration to find what you're looking for. Maybe the real lesson is to take a free course before diving in the deep end?
+            hours of frustration to find what you're looking for.
             </p>
 
             <p class="pb-10">
             I still have a few little things to work on here and there, so I wouldn't call it finished just yet. But it's a start! I'll 
             be making small changes and updating different project pages over the next few months. Hopefully I don't forget any more semicolons.
             </p>
+            
         </div>   
         </FadeInPage>
     </div>;
